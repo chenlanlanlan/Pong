@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/Audio.hpp>
-#include "Ball.cpp"
+
 
 using namespace std;
 using namespace sf;
@@ -13,7 +13,7 @@ int main()
 	window.setVerticalSyncEnabled(true);
 
 	Vector2f paddleSize = Vector2f(25.f, 100.f);
-	Ball ball;
+	//Ball ball;
 	sf::RectangleShape leftPaddle;
 	leftPaddle.setSize(paddleSize - sf::Vector2f(3, 3));
 	leftPaddle.setOutlineThickness(3);
