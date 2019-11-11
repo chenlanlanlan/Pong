@@ -24,6 +24,12 @@
     <ClCompile Include="Paddle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ball.h">
@@ -32,5 +38,19 @@
     <ClInclude Include="Paddle.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ball.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\background.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>
